@@ -15,6 +15,38 @@ Link for Dataset:https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-
 - Displays **movie posters + titles** for better UX.
 - Uses **TF-IDF Vectorization** and **Cosine Similarity** for recommendations.
 
+  ##  Installation & Usage
 
+### Prerequisites
+- Python 3.7 or above
+
+### Install Dependencies
+```bash```
+pip install -r requirements.txt
+
+  
+## File Struture
+├── app.py                # Streamlit application frontend
+├── recommender.py         # Recommendation logic using TF-IDF & cosine similarity
+├── movies.pkl             # Preprocessed movie metadata (pickled DataFrame)
+├── imdb_top_1000.csv      # Raw IMDb Top 1000 movies dataset
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation (this file)
+
+### Run The app locally 
+  - streamlit run app.py
+
+
+
+### Current Limitations:
+- Heavily reliant on metadata quality (overviews, actor names, genres, etc.).
+- Does not use collaborative filtering or personalization.
+
+### Potential Upgrades:
+
+- Combine with collaborative filtering for more personalized recommendations.
+- Add richer metadata (like plot keywords, user ratings, or runtime).
+- Implement caching or precomputed similarity matrices for faster responses.
+- Enable user feedback integration to improve recommendation relevance.
 
 
