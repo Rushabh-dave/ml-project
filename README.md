@@ -25,13 +25,7 @@ Link for Dataset:https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-
 pip install -r requirements.txt
 
   
-## File Struture
-├── app.py                # Streamlit application frontend
-├── recommender.py         # Recommendation logic using TF-IDF & cosine similarity
-├── movies.pkl             # Preprocessed movie metadata (pickled DataFrame)
-├── imdb_top_1000.csv      # Raw IMDb Top 1000 movies dataset
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation (this file)
+
 
 ### Run The app locally 
   - streamlit run app.py
