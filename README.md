@@ -21,8 +21,7 @@ Link for Dataset:https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-
 - Python 3.7 or above
 
 ### Install Dependencies
-```bash```
-pip install -r requirements.txt
+```bash pip install -r requirements.txt ```
 
   
 ### How to run the application
