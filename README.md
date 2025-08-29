@@ -25,17 +25,18 @@ Link for Dataset:https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-
 pip install -r requirements.txt
 
   
+### How to run the application
 
-
-### Run The app locally 
-  - streamlit run app.py
-
+### 1. Run The app locally
+  -  in app.py run this code ```streamlit run app.py```  
+### 3. Click The link
+  - https://ml-project-hquutzbpjb2ubwipflsrkd.streamlit.app/
 
 
 ### Current Limitations:
 - Heavily reliant on metadata quality (overviews, actor names, genres, etc.).
 - Does not use collaborative filtering or personalization.
-
+- picture quality is low 
 ### Potential Upgrades:
 
 - Combine with collaborative filtering for more personalized recommendations.
